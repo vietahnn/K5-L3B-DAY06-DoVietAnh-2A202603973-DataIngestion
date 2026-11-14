@@ -16,14 +16,18 @@ from .store import PgVectorStore
 def main() -> None:
     root = Path(__file__).resolve().parents[1]
     load_dotenv(root / ".env")
-    pdf_path = Path(os.getenv("PDF_PATH", root.parent / "Poverty, Prosperity and Planet Report 2026 - Overview.pdf"))
+    pdf_path = Path(os.getenv(
+        "PDF_PATH",
+        root / "data" / "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+    ))
+    source_path = _relative_source_path(pdf_path, root.parent)
     benchmark_path = Path(os.getenv("BENCHMARK_PATH", root / "data" / "benchmark.json"))
     if not benchmark_path.is_file():
         raise FileNotFoundError(
             f"Missing benchmark: {benchmark_path}. Create 20 verified questions with 15 dev/5 test."
         )
     questions = _load_benchmark(benchmark_path)
-    pages = load_pdf(pdf_path, "poverty-prosperity-planet-2026-overview", str(pdf_path))
+    pages = load_pdf(pdf_path, "poverty-prosperity-planet-2026-overview", source_path)
     content_pages = [page for page in pages if page.text]
     if len(content_pages) < 30:
         raise ValueError(f"Corpus has {len(content_pages)} non-empty pages; at least 30 are required")
@@ -43,7 +47,7 @@ def main() -> None:
         json.dumps({
             "source_id": pages[0].document_id,
             "title": "Poverty, Prosperity and Planet Report 2026 - Overview",
-            "source_path": str(pdf_path),
+            "source_path": source_path,
             "license_or_permission": os.getenv("CORPUS_LICENSE", "REPLACE_WITH_VERIFIED_PERMISSION"),
             "accessed_at": os.getenv("CORPUS_ACCESSED_AT", "REPLACE_WITH_ACCESS_DATE"),
             "physical_page_count": len(pages),
@@ -115,6 +119,14 @@ def _load_benchmark(path: Path) -> list[dict]:
                for question in data):
         raise ValueError("benchmark needs at least one test question with a metadata filter")
     return data
+
+
+def _relative_source_path(path: Path, repository_root: Path) -> str:
+    """Return a stable repository-relative source path for persisted metadata."""
+    try:
+        return path.resolve().relative_to(repository_root.resolve()).as_posix()
+    except ValueError:
+        return path.name
 
 
 if __name__ == "__main__":

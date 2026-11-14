@@ -1,8 +1,8 @@
 # Thông tin học viên
 
-- Họ và tên:
-- MSSV:
-- Lớp: L3A / L3B / khác:
-- Chủ đề và corpus:
-- Repo bài nộp:
-- Commit chốt bài:
+- Họ và tên: Đỗ Việt Anh
+- MSSV: 2A202603973
+- Lớp: L3B
+- Chủ đề và corpus: Poverty, Prosperity and Planet Report 2026 - Overview
+- Repo bài nộp: https://github.com/vietahnn/K5-L3B-DAY06-DoVietAnh-2A202603973-DataIngestion
+- Commit chốt bài: Chưa có
