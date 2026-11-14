@@ -1,0 +1,227 @@
+{
+  "source_id": "poverty-prosperity-planet-2026-overview",
+  "title": "Poverty, Prosperity and Planet Report 2026 - Overview",
+  "source_path": "C:\\Users\\dovie\\Downloads\\K5-L3B-DAY06-2A202603973-DataIngestion\\Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+  "license_or_permission": "REPLACE_WITH_VERIFIED_PERMISSION",
+  "accessed_at": "REPLACE_WITH_ACCESS_DATE",
+  "physical_page_count": 36,
+  "non_empty_content_pages": 33,
+  "pages": [
+    {
+      "page": 1,
+      "characters": 53,
+      "section": "poverty , prosperity ,",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 2,
+      "characters": 0,
+      "section": "poverty , prosperity ,",
+      "extraction_status": "empty"
+    },
+    {
+      "page": 3,
+      "characters": 173,
+      "section": "overview",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 4,
+      "characters": 724,
+      "section": "overview",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 5,
+      "characters": 94,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 6,
+      "characters": 4548,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 7,
+      "characters": 1055,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 8,
+      "characters": 0,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "empty"
+    },
+    {
+      "page": 9,
+      "characters": 2335,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 10,
+      "characters": 1120,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 11,
+      "characters": 2196,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 12,
+      "characters": 460,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 13,
+      "characters": 2012,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 14,
+      "characters": 3302,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 15,
+      "characters": 3268,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 16,
+      "characters": 1577,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 17,
+      "characters": 1919,
+      "section": "poverty, prosperity, and planet report 2026",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 18,
+      "characters": 2525,
+      "section": "figure 1",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 19,
+      "characters": 2546,
+      "section": "figure 1",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 20,
+      "characters": 2106,
+      "section": "figure 2",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 21,
+      "characters": 2960,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 22,
+      "characters": 2620,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 23,
+      "characters": 2869,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 24,
+      "characters": 1827,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 25,
+      "characters": 2628,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 26,
+      "characters": 3247,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 27,
+      "characters": 3233,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 28,
+      "characters": 3386,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 29,
+      "characters": 3105,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 30,
+      "characters": 3033,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 31,
+      "characters": 3641,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 32,
+      "characters": 2756,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 33,
+      "characters": 3377,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 34,
+      "characters": 2750,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    },
+    {
+      "page": 35,
+      "characters": 0,
+      "section": "figure 3",
+      "extraction_status": "empty"
+    },
+    {
+      "page": 36,
+      "characters": 2888,
+      "section": "figure 3",
+      "extraction_status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+[
+  {
+    "id": "q01",
+    "type": "direct",
+    "split": "dev",
+    "question": "How many people were estimated to be living below the international extreme poverty line in 2026, and what share of humanity did that represent?",
+    "expected_answer": "811 million people, or 1 in 10 of humanity.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 9,
+    "evidence_quote": "In 2026, an estimated 811 million people, 1 in 10, live below the international extreme poverty line of $3.00 a day, a rate unchanged since 2019."
+  },
+  {
+    "id": "q02",
+    "type": "direct",
+    "split": "dev",
+    "question": "What happened to the global extreme poverty rate if the 2000–13 pace of reduction had continued?",
+    "expected_answer": "The report says 243 million additional people would have escaped poverty.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 17,
+    "evidence_quote": "Had the 2000–13 pace been maintained, 243 million additional people would have escaped poverty."
+  },
+  {
+    "id": "q03",
+    "type": "paraphrase",
+    "split": "dev",
+    "question": "Where is extreme poverty expected to be concentrated by 2030?",
+    "expected_answer": "In Sub-Saharan Africa, fragile and conflict-affected situations, or both; the report gives a share of 87 percent.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 17,
+    "evidence_quote": "by 2030, 87 percent will be living in Sub-Saharan Africa, in a fragile and conflict-affected situation, or both"
+  },
+  {
+    "id": "q04",
+    "type": "direct",
+    "split": "dev",
+    "question": "How many people were still living below the $8.30-a-day line?",
+    "expected_answer": "Nearly half of humanity, or 3.7 billion people.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 25,
+    "evidence_quote": "Even so, nearly half of humanity—3.7 billion people—are still living on less than $8.30 a day."
+  },
+  {
+    "id": "q05",
+    "type": "comparison",
+    "split": "dev",
+    "question": "How did the number of economies with a Gini index above 40 change between 2000 and 2024?",
+    "expected_answer": "It fell from 70 economies to 42.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 19,
+    "evidence_quote": "The number of economies with a Gini index above 40 fell from 70 in 2000 to 42 in 2024"
+  },
+  {
+    "id": "q06",
+    "type": "filter",
+    "split": "dev",
+    "question": "According to the inequality figure, what share of people worldwide still live in a high-inequality economy?",
+    "expected_answer": "One in five people worldwide.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 19,
+    "evidence_quote": "one in five people worldwide is still living in a high-inequality economy",
+    "filter": {
+      "section": "figure 1"
+    }
+  },
+  {
+    "id": "q07",
+    "type": "direct",
+    "split": "dev",
+    "question": "What was the Global Prosperity Gap in 1990, in 2013, and in 2026?",
+    "expected_answer": "It was 10.5 in 1990, 5.5 in 2013, and 4.5 in 2026.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 19,
+    "evidence_quote": "In 1990, incomes worldwide needed to rise 10.5-fold ... By 2013, the Prosperity Gap had fallen to 5.5, and it stood at 4.5 in 2026"
+  },
+  {
+    "id": "q08",
+    "type": "conditional",
+    "split": "dev",
+    "question": "How many people were exposed to a major climate hazard, and how many were also highly vulnerable?",
+    "expected_answer": "4.6 billion people were exposed, and 1.5 billion were also highly vulnerable.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 20,
+    "evidence_quote": "Of the 4.6 billion people exposed to a major climate hazard, 1.5 billion are also highly vulnerable"
+  },
+  {
+    "id": "q09",
+    "type": "filter",
+    "split": "dev",
+    "question": "What was the change in the global share of people at high risk from climate hazards between 2010 and 2024?",
+    "expected_answer": "It fell from one in three to one in six.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 20,
+    "evidence_quote": "Globally, the share of people at high risk fell from one in three in 2010 to one in six in 2024",
+    "filter": {
+      "section": "figure 2"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "direct",
+    "split": "dev",
+    "question": "What were global greenhouse gas emissions in 2024, excluding land use and forestry emissions?",
+    "expected_answer": "52.8 metric gigatons of carbon dioxide equivalent, 48.0 percent above 2000 levels.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 29,
+    "evidence_quote": "GHG emissions, excluding those from land use, forestry, and changes in land use, reached 52.8 metric gigatons of carbon dioxide equivalent (GtCO₂e) in 2024, about 48.0 percent above the levels in 2000"
+  },
+  {
+    "id": "q11",
+    "type": "direct",
+    "split": "dev",
+    "question": "How many people experienced moderate or severe food insecurity in 2024?",
+    "expected_answer": "2.3 billion people.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 30,
+    "evidence_quote": "In 2024, 2.3 billion people experienced moderate or severe food insecurity"
+  },
+  {
+    "id": "q12",
+    "type": "comparison",
+    "split": "dev",
+    "question": "What does the report say about the emissions effect of eradicating extreme poverty?",
+    "expected_answer": "It is estimated to add less than 5 percent to global emissions.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 30,
+    "evidence_quote": "The effort to eradicate extreme poverty is estimated to add less than 5 percent to global emissions."
+  },
+  {
+    "id": "q13",
+    "type": "direct",
+    "split": "dev",
+    "question": "What share of extremely poor workers are in farm jobs?",
+    "expected_answer": "Two-thirds.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 31,
+    "evidence_quote": "Two-thirds of extremely poor workers are in farm jobs"
+  },
+  {
+    "id": "q14",
+    "type": "comparison",
+    "split": "dev",
+    "question": "How do employment rates in poor households compare with those in nonpoor households?",
+    "expected_answer": "About three in five working-age adults in poor households are employed, around 6 percentage points below nonpoor adults.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 31,
+    "evidence_quote": "About three in five working-age adults in poor households are employed, some 6 percentage points below the rate among adults in nonpoor households."
+  },
+  {
+    "id": "q15",
+    "type": "conditional",
+    "split": "dev",
+    "question": "Which group accounts for most of the employment shortfall in poor households?",
+    "expected_answer": "Women; men have employment rates around 75 percent while women have much lower rates.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 31,
+    "evidence_quote": "In poor households, the shortfall in employment is concentrated among women. Men are employed at rates of about 75 percent; women at far lower rates."
+  },
+  {
+    "id": "q16",
+    "type": "conditional",
+    "split": "test",
+    "question": "What would raising employment in poor households to 75 percent of working-age adults do to the global poverty rate?",
+    "expected_answer": "It would reduce the global poverty rate by a fifth.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 32,
+    "evidence_quote": "raising the employment rate among poor households to a benchmark of 75 percent of working-age adults would reduce the global poverty rate by a fifth"
+  },
+  {
+    "id": "q17",
+    "type": "comparison",
+    "split": "test",
+    "question": "Which intervention is described as cutting the extreme poverty rate by nearly half?",
+    "expected_answer": "Lifting the educational attainment of poor workers to the nonpoor average.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 32,
+    "evidence_quote": "Lifting the educational attainment of poor workers to the nonpoor average would cut the extreme poverty rate by nearly half."
+  },
+  {
+    "id": "q18",
+    "type": "filter",
+    "split": "test",
+    "question": "For the overview section covering planetary indicators and jobs, what share of the world population did the jobs database cover?",
+    "expected_answer": "The database covers 96 percent of the world's population.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 31,
+    "evidence_quote": "This report has relied on the construction of such a database, which covers 96 percent of the world’s population.",
+    "filter": {
+      "section": "figure 3"
+    }
+  },
+  {
+    "id": "q19",
+    "type": "comparison",
+    "split": "test",
+    "question": "In which economies does a transition into wage employment have the strongest association with poverty reduction?",
+    "expected_answer": "In richer economies; in poorer economies, moving out of agriculture into nonagricultural work matters most.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 33,
+    "evidence_quote": "A transition into a wage job is associated with poverty reduction in richer economies, while a transition out of agriculture into nonagricultural work of any kind matters most in poorer economies."
+  },
+  {
+    "id": "q20",
+    "type": "direct",
+    "split": "test",
+    "question": "What does the report identify as the shortest-horizon route for raising the productivity of poor people's work?",
+    "expected_answer": "Raising the productivity of the work poor people already do, especially on smallholder farms.",
+    "gold_source_id": "poverty-prosperity-planet-2026-overview",
+    "gold_page": 33,
+    "evidence_quote": "Raising the productivity of the work the poor already do, especially on smallholder farms, is a route that does not depend on the creation of such jobs, and it is the route with the shortest horizon."
+  }
+]
